@@ -1,14 +1,17 @@
-#win the race
+#odd OR even
 
-myRank = 2
-
-if myRank == 1:
-    print("You got GOLD medal")
-elif myRank == 2:
-    print("You got SILVER medal")
-elif myRank == 3:
-    print("You got BORONZ medal")
+number = int(input("enter number:"))
+if number % 2 == 0:
+    print(f" {number} is even")
 else:
-    print("You got no medal")
-    
-print("You win this race") if myRank == 1 else print("You dont win")
+    print(f" {number} is odd")
+
+#-------------------------------------
+#absolute velue
+
+
+number2 = int(input("enter number:"))
+
+if number2 < 0 :
+    n = -n
+print(number)
