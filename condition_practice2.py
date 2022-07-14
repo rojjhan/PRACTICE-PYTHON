@@ -10,3 +10,5 @@ elif myRank == 3:
     print("You got BORONZ medal")
 else:
     print("You got no medal")
+    
+print("You win this race") if myRank == 1 else print("You dont win")
