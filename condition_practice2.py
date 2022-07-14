@@ -13,5 +13,5 @@ else:
 number2 = int(input("enter number:"))
 
 if number2 < 0 :
-    n = -n
-print(number)
+    number2 = -number2
+print(number2)
